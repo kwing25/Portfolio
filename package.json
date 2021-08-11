@@ -7,7 +7,6 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "Babel": "0.0.1",
-    "babel-loader": "^8.2.2",
     "bootstrap": "^5.1.0",
     "bootstrap-vue": "^2.21.2",
     "pug": "^3.0.2",
