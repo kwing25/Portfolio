@@ -1,0 +1,33 @@
+div#homepage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    padding-left: 20%;
+    padding-right: 3%;
+    background: #700548;
+    animation: pulse 20s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #080705;
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-color: #700548;
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-color: #080705;
+        background-position: 0% 82%
+    }
+}
+
+h1 {
+    text-align: center;
+    padding-left: 12px;
+}
