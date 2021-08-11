@@ -2,10 +2,10 @@ import React from "react";
 
 import "./App.css";
 
-import Nav from "./components/Nav";
+import Nav from "./components/Nav.jsx";
 
-import Home from "./pages/Home"
-import Contact from "./pages/Contact";
+import Home from "./pages/Home.jsx"
+import Contact from "./pages/Contact.jsx";
 // import About from "./components/About";
 // import Skills from "./components/Skills";
 // import Projects from "./components/Projects";
