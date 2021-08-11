@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+<h1 align="center" style="color:#ff006f; font-size:33px;"> My Portfolio </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img src="https://raw.githubusercontent.com/kwing25/Professional-Portfolio-Website/main/assets/logobranding/nameheadlogo.JPG" alt="logo" height="200" width="500" style="margin:30px">
+</p>
 
-## Available Scripts
+<h4 align="center" style="text-decoration:underline;">I'd love to connect with you!👇 </h4>
+<p align="center">
+<a href="https://www.linkedin.com/in/kendrawing/"><img src="https://img.shields.io/badge/LinkedIn-ffffff?style=flat-square&logo=LinkedIn&logoColor=0177b5&link=https://www.linkedin.com/in/kendrawing/" alt="LinkedIn" /></a>
+<a href="https://join.slack.com/t/kendrawingweb-dfc7333/shared_invite/zt-u0vp8owy-odr4CflXwX80gsCmkVjL5w"><img src="https://cdn.brandfolder.io/5H442O3W/at/pl546j-7le8zk-btwjnu/Slack_RGB.png?height=30&width=200">
+<a href="https://discord.gg/eK8HPFx39u"><img src="https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=Discord&link=https://discord.gg/eK8HPFx39u" alt="Discord" /></a>
+<br>
+<a href="kendrawingpro@icloud.com"><img src="https://img.shields.io/badge/📧 Email-kendrawingpro@icloud.com-080705?labelColor=FF006F&style=flat-square&link=kendrawingpro@icloud.com" alt="📧 Email " /></a>
+<a href="kendrawing.myportfolio.com"><img src="https://img.shields.io/badge/💻 Website-kendrawing.com-080705?labelColor=FF006F&style=flat-square&link=kendrawing.myportfolio.com" alt="💻 Website" /> 
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+ <!-- [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://app.netlify.com/sites/kendra-wing-portfolio-react-version/) -->
+[![Status](https://img.shields.io/badge/Status-In_Progress-80DEEA?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/New-Portfolio)
+[![Status](https://img.shields.io/badge/Status-Actively_Working_On-4FC3F7?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/New-Portfolio)
+[![Status](https://img.shields.io/badge/Status-Maintained-81D4FA?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/New-Portfolio)
+[![Repo Type](https://img.shields.io/badge/Repo_Type-Public-fff200?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/New-Portfolio)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/d2c12cd4-1fa7-42b9-89f1-ce3ac7b1ebdc/deploy-status)](https://app.netlify.com/sites/kendra-wing-portfolio-react-version/deploys) -->
+---
 
-### `npm test`
+## Table of Contents:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - [Description](#description)
+  - [Technologies](#technologies)
+  - [Links](#links)
+  - [Contributors](#contributors)
+  - [Status & Updates](#status--updates-)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Description
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Professional Portfolio Website React Version.
 
-### `npm run eject`
+### Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This site uses React, Node, & Javascript. More technologies to be added...
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- HTML, CSS, Javascript
+- React
+- Node.js
+- NPM
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[![Sass](https://img.shields.io/badge/Sass-000000?style=flat&logo=Sass&link=https://sass-lang.com/)](https://sass-lang.com/)
+[![Babel](https://img.shields.io/badge/Babel-000000?style=flat&logo=Babel&link=https://babeljs.io/)](https://babeljs.io/)
+[![Pug](https://img.shields.io/badge/Pug-000000?style=flat&logo=Pug&link=https://pugjs.org/)](https://pugjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat&logo=Node.js&link=https://nodejs.org/en/)](https://nodejs.org/en/)
+[![npm](https://img.shields.io/badge/npm-000000?style=flat&logo=npm&link=https://www.npmjs.com/)](https://www.npmjs.com/)
+[![Javascript](https://img.shields.io/badge/Javascript-000000?style=flat&logo=Javascript&link=https://www.javascript.com/)](https://www.javascript.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[![React](https://img.shields.io/badge/React-Main_Technology_Used-000000?labelColor=d1d1d1&style=for-the-badge&logo=React&link=https://github.com/kwing25/New-Portfoli)](https://github.com/kwing25/New-Portfolio)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [GitHub Repo](https://github.com/kwing25/New-Portfolio)
+<!-- - [Live Site](https://kendra-wing-portfolio-react-version.netlify.app/) -->
+[![GitHub](https://img.shields.io/badge/GitHub-In_Progress-f1f424?labelColor=000000&style=for-the-badge&logo=GitHub&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/New-Portfolio)
 
-### Code Splitting
+## Contributor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Kendra Wing [![GitHub](https://img.shields.io/badge/GitHub-kwing25-green?style=social&logo=GitHub&link=https://github.com/kwing25)](https://github.com/kwing25)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Status & Updates: ![Last Commit](https://img.shields.io/github/last-commit/kwing25/New-Portfolio?style=plastic)
 
-### Making a Progressive Web App
+> - Created Repo & Initial Commit - Tuesday August 11, 2021
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &copy; Kendra Wing 2021
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
