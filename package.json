@@ -9,6 +9,8 @@
     "Babel": "0.0.1",
     "bootstrap": "^5.1.0",
     "bootstrap-vue": "^2.21.2",
+    "font-awesome": "^4.7.0",
+    "gatsby": "^3.11.1",
     "popper": "^1.0.1",
     "pug": "^3.0.2",
     "react": "^17.0.2",
