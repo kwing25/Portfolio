@@ -3,12 +3,14 @@ import "../styles/home.scss"
 
 
 export default function Home() {
-    return ( 
+    return (
         <div class="home" id="homepage">
             <div class="container">
-                
-        <h1>Hello My Name is Kendra👋. I'm a Web Developer💻. This is my Portfolio💼.</h1>
-        </div>
+
+
+
+                <h1 class="title-typing">Hello My Name is Kendra.</h1>
+            </div>
         </div>
     );
 }

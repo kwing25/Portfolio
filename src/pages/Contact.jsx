@@ -9,7 +9,6 @@ export default function Contact() {
             <div class="container">
                 <div class="row">
 
-                    
                     <div class="contact-info">
                         <ul class="contact-info_items">
                             <li class="email">
