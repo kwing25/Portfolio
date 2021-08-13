@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/portfolio.scss"
 
 export default function Portfolio() {
     return (
@@ -32,6 +32,8 @@ export default function Portfolio() {
                 </div>
             </div>
         </div>
+
+        
 
                 </div>
             </div>
