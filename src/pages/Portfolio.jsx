@@ -2,12 +2,17 @@ import React from "react";
 
 
 export default function Portfolio() {
-    return ( 
+    return (
         <div class="about" id="aboutpage">
-        <h1>Portfolio</h1>
+
+            <div class="container">
+                <div class="row">
+                    <h1 id="page-title">Portfolio</h1>
 
 
-        <h1>Page Under Construction🛠</h1>
+                    <h1>Page Under Construction🛠</h1>
+                </div>
+            </div>
         </div>
 
     );
