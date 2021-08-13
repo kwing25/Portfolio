@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  /* width: 100vw;
-  height: 100vh; */
-}
-
 body {
   font-size: 20px;
   font-family: 'Comfortaa', cursive;
@@ -25,14 +20,17 @@ ul {
   list-style: none;
 }
 
-/* .nav {
-  position: fixed;
-  height: 100vh;  
-  width: 150px;
-} */
-
+/* Fixed nav and page content alignment with width & float */
 .home,
+.about,
+.portfolio,
 .contact {
+  display: flex;
   height: 100vh;
+  width: 75vw; 
+  float: right;
 }
 
+h1#page-title {
+  padding: 0;
+}
