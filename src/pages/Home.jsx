@@ -10,6 +10,8 @@ export default function Home() {
 
 
                 <h1 class="title-typing">Hello My Name is Kendra.</h1>
+                <h3>I love to build websites. </h3>
+                <h4>Websites that are... Colorful, Unique, Imaginative, Impactful</h4>
             </div>
         </div>
     );
