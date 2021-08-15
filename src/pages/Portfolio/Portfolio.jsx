@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/portfolio.scss"
+import "../Portfolio/portfolio.scss"
 
 export default function Portfolio() {
     return (
