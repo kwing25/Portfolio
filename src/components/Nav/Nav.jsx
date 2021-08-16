@@ -6,11 +6,6 @@ import "../Nav/nav.scss"
 function Nav({ currentPage, handlePageChange }) {
   return (
     <div class="nav">
-      {/* <div class="nav header">
-            <h1 class="name">Kendra Wing</h1>
-            <h3 class="title">Web Developer</h3>
-      </div> */}
-      
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
@@ -20,7 +15,7 @@ function Nav({ currentPage, handlePageChange }) {
             // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
           >
-                        <h1 class="name">Kendra Wing</h1>
+            <h1 class="name">Kendra Wing</h1>
             <h3 class="title">Web Developer</h3>{" "}
           </a>{" "}
         </li>{" "}
