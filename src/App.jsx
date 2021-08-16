@@ -3,9 +3,9 @@ import "./App.css";
 
 import Nav from "./components/Nav/Nav";
 import Home from "./pages/Home/Home";
-import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("Home");
