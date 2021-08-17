@@ -22,91 +22,71 @@ div#homepage {
     }
 }
 
-// div#intro-row {
-//     width: 100vw;
-// }
+div.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
-h1.title-typing {
+div#main {
+    padding: 15px;
+}
+
+h1.title-sentence {
     font-family: 'Homemade Apple', cursive;
-    font-size: 38px;
-    // overflow: hidden;
-    // white-space: nowrap;
-    // animation: animated-text 3s steps(30, end) 1s 1 normal both;
+    font-size: 60px;
+    color: #ff016e;
 }
 
-/* text animation */
-// @keyframes animated-text {
-//     from {
-//         width: 0;
-//     }
+div.wrapper {
+    padding: 10px;
+}
 
-//     to {
-//         width: 680px;
-//     }
-// }
-
-.profile-card {
-    width: 37vw;
-    height: auto;
-    background-color: rgba(8, 7, 5, .1);
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-    background-position: center;
-    overflow: hidden;
+.pic-graphic {
+    background: #000;
+    background: -moz-linear-gradient(-45deg, #ff016e 0%, #080705 25%, #01ffd9 50%, #fef8fc 75%, #700548 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ff016e 0%, #080705 25%, #01ffd9 50%, #fef8fc 75%, #700548 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(-45deg, #ff016e 0%, #080705 25%, #01ffd9 50%, #fef8fc 75%, #700548 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 30vw;
+    height: 46vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
     position: relative;
-    margin: 10px auto;
     cursor: pointer;
-    border-radius: 10px;
+    transition: .5s all;
+    border-radius: 100%;
+
+    &__img {
+        // position: absolute;
+        left: 0;
+        top: 0;
+        background: #000 url("https://raw.githubusercontent.com/kwing25/New-Portfolio/main/src/assets/portraitblackwhite.jpg?token=ASYPV6HZ73R6QAUO3EVODNLBEQJYM") no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: .9;
+        mix-blend-mode: screen;
+        border-radius: 100%;
+    }
+
+    &:hover {
+        background-position: 100% 100%;
+
+        &__title {
+            text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+        }
+    }
 }
-
-.profile-card img {
-    transition: all linear 0.25s;
-}
-
-.profile-card .profile-name {
-    position: absolute;
-    left: 30px;
-    bottom: 70px;
-    font-size: 30px;
-    color: #FFF;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    transition: all linear 0.25s;
-}
-
-.profile-card .profile-icons {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    color: #FFF;
-    transition: all linear 0.25s;
-}
-
-.profile-card .profile-username {
-    position: absolute;
-    bottom: 50px;
-    left: 30px;
-    color: #FFF;
-    font-size: 13px;
-    transition: all linear 0.25s;
-}
-
-.profile-card .profile-icons .fa {
-    margin: 5px;
-} 
-
-.profile-card:hover img {
-    filter: grayscale(100%);
-}
-
-.profile-card:hover .profile-name {
-    bottom: 80px;
-}
-
-.profile-card:hover .profile-username {
-    bottom: 60px;
-}
-
-.profile-card:hover .profile-icons {
-    right: 40px;
-}
-
