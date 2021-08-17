@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 import Nav from "./components/Nav/Nav";
+// import socialNav from "./components/socialNav/socialNav";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
@@ -31,47 +32,13 @@ export default function App() {
       {" "}
       {/* We are passing the currentPage from state and the function to update it */}{" "}
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />{" "}
+
       {/* Here we are calling the renderPage method which will return a component  */}{" "}
       {renderPage()}{" "}
+
     </div>
+
   );
 }
 
-// export default function App() {
-//   return (
-//     <main>
-//       <Nav />
-//       <Home />
-//       {/* <About />
-//       <Projects />
-//       <Skills /> */}
-//       {/* <Testimonials /> */}
-//       <Contact />
-//     </main>
-//   );
-// }
 
-
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
