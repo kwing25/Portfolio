@@ -12,13 +12,26 @@
   z-index: 3;
 }
 
+.nav.nav-tabs {
+  justify-content: flex-start;
+}
+
 h1.name, h3.title {
   font-family: 'Beth Ellen', cursive;
   color: #ff006f;
   text-align: center;
 }
 
+h1.name {
+  font-size: 5.5vh;
+}
+
+h3.title {
+  font-size: 2.75vh;
+}
+
 a.nav-link, .nav-link.active {
   font-family: 'Abril Fatface', cursive;
-  color: #ff006f;
+  font-size: 2.5vh;
+  color: rgba(255, 1, 110, .95);
 }
