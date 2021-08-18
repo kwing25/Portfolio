@@ -54,8 +54,9 @@ function Nav({ currentPage, handlePageChange }) {
           </a>{" "}
         </li>{" "}
       </ul>
+
+
     </div>
- 
 
   );
 }
