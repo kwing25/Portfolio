@@ -22,12 +22,13 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div class="wrapper">
-                    <div class="pic-graphic">
-                        <div class="pic-graphic__img"></div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-auto">
+                        <div class="pic-graphic">
+                            <div class="pic-graphic__img"></div>
+                        </div>
                     </div>
                 </div>
-
             </div>
 
         </div>
