@@ -1,0 +1,113 @@
+div#placeholderpage {
+    text-align: center;
+    padding: 20px;
+    background: #700548;
+    height: 100vh;
+    width: 100vw;
+    animation: pulse 25s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #080705;
+        background-position: 0% 82%;
+    }
+
+    50% {
+        background-color: #700548;
+        background-position: 100% 19%;
+    }
+
+    100% {
+        background-color: #080705;
+        background-position: 0% 82%;
+    }
+}
+
+h1.title {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 66px;
+    color: rgba(255, 1, 110, 1);
+    text-align: center;
+    text-shadow:
+        0 0 5px rgba(254, 248, 252, 1),
+        0 0 10px rgba(254, 248, 252, 1),
+        0 0 15px rgba(254, 248, 252, 1),
+        0 0 30px rgba(1, 255, 217, 1),
+        0 0 40px rgba(1, 255, 217, 1),
+        0 0 60px rgba(255, 1, 110, 1),
+        0 0 70px rgba(255, 1, 110, 1),
+        0 0 90px rgba(255, 1, 110, 1),
+}
+
+
+h3.title-sentence {
+    font-family: 'Comfortaa', cursive;
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(1, 255, 217, 1);
+    text-shadow:
+        0 0 20px #080705,
+        0 0 40px rgba(112, 5, 72, 1);
+    // position: absolute;
+    animation: colorchange 15s infinite;
+}
+
+@keyframes colorchange {
+    0% {
+        color: rgba(255, 1, 110, 1);
+        font-family: 'Comfortaa', cursive;
+    }
+
+    25% {
+        color: rgba(1, 255, 217, 1);
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    50% {
+        color: rgba(112, 5, 72, 1);
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    75% {
+        color: rgba(1, 255, 217, 1);
+        font-family: 'Beth Ellen', cursive;
+    }
+
+    99% {
+        color: rgba(255, 1, 110, 1);
+        font-family: 'Abril Fatface', cursive;
+    }
+
+}
+
+#contact {
+    background-color: rgba(255, 1, 110, .1);
+    border-radius: 50px;
+}
+
+h3 {
+    color: rgba(255, 1, 110, 1);
+}
+a {
+    text-decoration: none;
+    color: rgba(254, 248, 252, 1);
+}
+
+h6 {
+    font-style: italic;
+    text-shadow:
+        0 0 5px rgba(112, 5, 72, 1),
+        0 0 10px rgba(112, 5, 72, 1),
+        0 0 10px rgba(1, 255, 217, 1),
+        0 0 20px rgba(1, 255, 217, 1),
+        0 0 30px rgba(255, 1, 110, 1),
+}
+
+footer a {
+    padding-top: 20px;
+    color: rgba(254, 248, 252, .5);
+    font-size: 10px;
+    align-content: flex-end;
+}
