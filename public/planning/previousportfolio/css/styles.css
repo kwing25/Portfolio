@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Shade&family=Codystar&family=Comfortaa&family=Dawning+of+a+New+Day&family=Lobster&family=Mr+Bedfort&family=Oswald&family=Pacifico&family=Raleway:wght@300&family=Roboto&family=Sacramento&display=swap');
+@import url("hover.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    color: #fff9fc;
+    background: #080705;
+}
+
+/* Main Menu */
+div.main-menu {
+    display: flex;
+    width: fit-content;
+    height: 100vh;
+    flex-direction: column;
+    position: fixed;
+}
+
+div.main-menu_nav-links {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* background: #700548; */
+    padding: 1rem;
+    justify-content: space-between;
+    background: url("../img/pinkishnightclouds.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+div.main-menu_nav-links a {
+    text-decoration: none;
+}
+
+/* Main Menu Header */
+/* div.main-menu_nav-header a#nav-header:hover {
+    background-image: url("../img/profilepicapr2021.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.77;
+    border-radius: 35px;
+    margin: 8px;
+}
+
+#nav-header-text:hover {
+    visibility: hidden;
+} */
+
+div.main-menu_nav-header h1 {
+    font-size: 49px;
+    font-family: 'Sacramento', cursive;
+    text-shadow: 3px 1px #080705;
+}
+
+div.main-menu_nav-header h3 {
+    font-size: 34px;
+    font-family: 'Sacramento', cursive;
+    text-shadow: 3px 1px #080705;
+}
+
+div.main-menu_nav-header a {
+    color: #ff006f;
+}
+
+div.main-menu_nav-header a:hover {
+    color: #00ffd9;
+}
+
+/* Main Menu Main Links */
+div.main-menu_nav-links-main {
+    display: flex;
+    flex-direction: column;
+}
+
+div.main-menu_nav-links-main a {
+    font-size: 27px;
+    font-family: 'Abril Fatface', cursive;
+    color: #ff006f;
+}
+
+div.main-menu_nav-links-main a:hover {
+    color: #00ffd9;
+}
+
+/* Main Menu Social */
+div.main-menu_nav-links-social a {
+    color: #ff006f;
+}
+
+div.main-menu_nav-links-social a:hover {
+    color: #00ffd9;
+}
+
+div.backtoindex a {
+    text-decoration: none;
+    color: #00ffd9;
+    padding-top: 30px;
+}
+
+div.backtoindex a:hover {
+    color: #fff9fc;
+}
+
+
+/* ~~Home Page~~ */
+div.home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    padding-left: 20%;
+    padding-right: 3%;
+    /* margin: 3px; */
+    background: #700548;
+    animation: pulse 20s infinite;
+    overflow: scroll;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #080705;
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-color: #700548;
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-color: #080705;
+        background-position: 0% 82%
+    }
+}
+
+
+div.main-content {
+    padding: 15px;
+}
+
+div.container-md {
+    padding: 20px;
+}
+
+
+
+/* Intro Line */
+h1.intro-line {
+    font-size: 75px;
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+/* Intro Line Typing Animation */
+div#typing-effect {
+    height: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Animation */
+div#typing-effect {
+    animation: animated-text 2s steps(30, end) 1s 1 normal both;
+}
+
+/* text animation */
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 680px;
+    }
+}
+
+
+
+
+/* ~~About Me Page~~ */
+div.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    /* justify-content: left; */
+    padding-left: 20%;
+    padding-right: 3%;
+    /* margin: 3px; */
+    background: #ff006f;
+}
+
+/* Profile Pics */
+/* src- http://css3.bradshawenterprises.com/cfimg/ */
+/* div#profilepicture {
+    position: relative;
+} */
+
+/* div#profilepicture img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+img.pic1 {
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+@keyframes cf3FadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    55% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+} */
+
+
+
+
+/* ~~My Skills Page~~ */
+div.myskills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    /* justify-content: left; */
+    padding-left: 20%;
+    padding-right: 3%;
+    /* margin: 3px; */
+    /* background: #00ffd9; */
+    background: url("../img/lisafrankdesign1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* ~~Work Page~~ */
+div.work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    /* justify-content: left; */
+    padding-left: 20%;
+    padding-right: 3%;
+    /* margin: 3px; */
+    background: #00ffd9;
+}
+
+
+
+
+
+/* ~~Contact Page~~ */
+div.contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    padding-left: 20%;
+    padding-right: 3%;
+    /* margin: 3px; */
+    /* background-color: hsla(200, 40%, 30%, .4);
+    background-image:
+        url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'),
+        url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+        url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+        url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+        url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position:
+        0 20%,
+        0 100%,
+        0 50%,
+        0 100%,
+        0 0;
+    background-size:
+        2500px,
+        800px,
+        500px 200px,
+        1000px,
+        400px 260px;
+    animation: 50s para infinite linear;
+}
+
+@keyframes para {
+    100% {
+        background-position:
+            -5000px 20%,
+            -800px 95%,
+            500px 50%,
+            1000px 100%,
+            400px 0;
+    }
+} */
+}
+
+header.contactmepageheader {
+    background: #ff006f;
+    border-radius: 30px;
+    width: 300px;
+    height: 10vh;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+h1.contactmetitle a {
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: none;
+    color: #00ffd9;
+}
+
+div.contact-info {
+    padding-top: 15px;
+}
+
+ul.contact-info_items {
+    list-style: none;
+}
+
+li.email a,
+li.linkedinaccount a,
+li.githubaccount a {
+    text-decoration: none;
+    color: #fff9fc;
+}
+
+/* Contact Form */
+div#contactmeform {
+    background: #ff006f;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+div#contactmeform:hover {
+    background: #700548;
+    border-radius: 5px;
+
+}
+
+legend h1 {
+    font-size: 47px;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+}
+
+
+
+
+
+
+/* .tooltip {
+    position: relative;
+    background: pink;
+    padding: 5px 12px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 100%;
+    color: #FFF;
+}
+
+.tooltip:before,
+.tooltip:after {
+    position: absolute;
+    content: '';
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.tooltip:before {
+    border-width: 10px 8px 0 8px;
+    border-style: solid;
+    border-color: pink transparent transparent transparent;
+    top: -15px;
+    transform: translateY(20px);
+}
+
+.tooltip:after {
+    content: attr(data-tooltip);
+    background: pink;
+    width: 160px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    top: -75px;
+    left: -10px;
+    padding: 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transform: translateY(20px);
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
+    70% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#alert-tooltip {
+    animation: shake 500ms ease-in-out forwards;
+} */
+
+
+
+
+
+
+
+
+/* ~~~Mobile Styles~~~ */
+@media screen and (max-width: 768px) {
+
+    /* Main-Menu */
+    div.main-menu {
+        width: 100vw;
+        height: 30vh;
+        margin: 0;
+        padding: 2px;
+        position: relative;
+    }
+
+    div.main-menu_nav-links-main {
+        padding: 5px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div.main-menu_nav-header h1,
+    div.main-menu_nav-header h3 {
+        font-size: 33px;
+
+    }
+
+    div.main-menu_nav-links-main a,
+    div.main-menu_nav-links-social a {
+        font-size: 18px;
+        flex-direction: row;
+    }
+
+
+    /* ~~Home Page Mobile~~ */
+    div.homepage {
+        padding: 2px;
+        align-content: flex-start;
+    }
+
+    div.main-content {
+        width: 100vw;
+    }
+
+    div.row {
+        flex-wrap: wrap;
+        font-size: smaller;
+    }
+
+    h1.intro-line {
+        font-size: 41px;
+    }
+}
+
+
+
+
+/* ~~Notes~~ */
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Shade&family=Codystar&family=Comfortaa&family=Dawning+of+a+New+Day&family=Lobster&family=Mr+Bedfort&family=Oswald&family=Pacifico&family=Raleway&family=Roboto&family=Sacramento&display=swap');
+
+<link rel="preconnect"href="https://fonts.googleapis.com"><link rel="preconnect"href="https://fonts.gstatic.com"crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Shade&family=Codystar&family=Comfortaa&family=Dawning+of+a+New+Day&family=Lobster&family=Mr+Bedfort&family=Oswald&family=Pacifico&family=Raleway&family=Roboto&family=Sacramento&display=swap"rel="stylesheet"> */
+/* Fonts- url: <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Shade&family=Codystar&family=Comfortaa&family=Dawning+of+a+New+Day&family=Lobster&family=Mr+Bedfort&family=Oswald&family=Pacifico&family=Raleway:wght@300&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Codystar', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mr Bedfort', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+/* Original Color Scheme-
+--rich-black-fogra-39: #080705ff; 
+--pansy-purple: #700548ff;
+--winter-sky: #ff006fff;
+--snow: #fff9fcff;
+--sea-green-crayola: #00ffd9ff; */
+
+/* Lisa Frank Color Scheme 1-*/
+/* CSS HEX
+--middle-yellow: #F9E704ff;
+--bdazzled-blue: #3A5BA5ff;
+--cotton-candy: #EFBBD5ff;
+--deep-cerise: #EE018Dff;
+--cyan-process: #04ACF0ff;
+--ghost-white: #F9F9FEff;
+--green-ryb: #70BF41ff;
+--rebecca-purple: #712998ff;
+--orange-peel: #F59C1Eff;
+--phthalo-green: #0B2014ff; */
+
+/* CSS HSL */
+/* --middle-yellow: hsla(56, 97%, 50%, 1);
+--bdazzled-blue: hsla(221, 48%, 44%, 1);
+--cotton-candy: hsla(330, 62%, 84%, 1);
+--deep-cerise: hsla(325, 99%, 47%, 1);
+--cyan-process: hsla(197, 97%, 48%, 1);
+--ghost-white: hsla(240, 71%, 99%, 1);
+--green-ryb: hsla(98, 50%, 50%, 1);
+--rebecca-purple: hsla(279, 58%, 38%, 1);
+--orange-peel: hsla(35, 91%, 54%, 1);
+--phthalo-green: hsla(146, 49%, 8%, 1); */
+
+/* SCSS HEX */
+/* $middle-yellow: #F9E704ff;
+$bdazzled-blue: #3A5BA5ff;
+$cotton-candy: #EFBBD5ff;
+$deep-cerise: #EE018Dff;
+$cyan-process: #04ACF0ff;
+$ghost-white: #F9F9FEff;
+$green-ryb: #70BF41ff;
+$rebecca-purple: #712998ff;
+$orange-peel: #F59C1Eff;
+$phthalo-green: #0B2014ff; */
+
+/* SCSS HSL */
+/* $middle-yellow: hsla(56, 97%, 50%, 1);
+$bdazzled-blue: hsla(221, 48%, 44%, 1);
+$cotton-candy: hsla(330, 62%, 84%, 1);
+$deep-cerise: hsla(325, 99%, 47%, 1);
+$cyan-process: hsla(197, 97%, 48%, 1);
+$ghost-white: hsla(240, 71%, 99%, 1);
+$green-ryb: hsla(98, 50%, 50%, 1);
+$rebecca-purple: hsla(279, 58%, 38%, 1);
+$orange-peel: hsla(35, 91%, 54%, 1);
+$phthalo-green: hsla(146, 49%, 8%, 1); */
+
+/* SCSS RGB */
+/* $middle-yellow: rgba(249, 231, 4, 1);
+$bdazzled-blue: rgba(58, 91, 165, 1);
+$cotton-candy: rgba(239, 187, 213, 1);
+$deep-cerise: rgba(238, 1, 141, 1);
+$cyan-process: rgba(4, 172, 240, 1);
+$ghost-white: rgba(249, 249, 254, 1);
+$green-ryb: rgba(112, 191, 65, 1);
+$rebecca-purple: rgba(113, 41, 152, 1);
+$orange-peel: rgba(245, 156, 30, 1);
+$phthalo-green: rgba(11, 32, 20, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff);
+$gradient-right: linear-gradient(90deg, #F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff);
+$gradient-bottom: linear-gradient(180deg, #F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff);
+$gradient-left: linear-gradient(270deg, #F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff);
+$gradient-top-right: linear-gradient(45deg, #F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff);
+$gradient-bottom-right: linear-gradient(135deg, #F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff);
+$gradient-top-left: linear-gradient(225deg, #F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff);
+$gradient-bottom-left: linear-gradient(315deg, #F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff);
+$gradient-radial: radial-gradient(#F9E704ff, #3A5BA5ff, #EFBBD5ff, #EE018Dff, #04ACF0ff, #F9F9FEff, #70BF41ff, #712998ff, #F59C1Eff, #0B2014ff); */
+
+
+/* Lisa Frank Color Scheme 2-*/
+/* CSS HEX */
+/* --deep-cerise: #EC0890ff;
+--princeton-orange: #E47F34ff;
+--marigold: #F4AC24ff;
+--titanium-yellow: #F2DE22ff;
+--android-green: #ADC836ff;
+--android-green-2: #8BBF42ff;
+--green-ryb: #74BA48ff;
+--cyan-process: #08B4E0ff;
+--spanish-blue: #2476B7ff;
+--eminence: #62297Aff; */
+
+/* CSS HSL */
+/* --deep-cerise: hsla(324, 93%, 48%, 1);
+--princeton-orange: hsla(26, 77%, 55%, 1);
+--marigold: hsla(39, 90%, 55%, 1);
+--titanium-yellow: hsla(54, 89%, 54%, 1);
+--android-green: hsla(71, 57%, 50%, 1);
+--android-green-2: hsla(85, 49%, 50%, 1);
+--green-ryb: hsla(97, 45%, 51%, 1);
+--cyan-process: hsla(192, 93%, 45%, 1);
+--spanish-blue: hsla(207, 67%, 43%, 1);
+--eminence: hsla(282, 50%, 32%, 1); */
+
+/* SCSS HEX */
+/* $deep-cerise: #EC0890ff;
+$princeton-orange: #E47F34ff;
+$marigold: #F4AC24ff;
+$titanium-yellow: #F2DE22ff;
+$android-green: #ADC836ff;
+$android-green-2: #8BBF42ff;
+$green-ryb: #74BA48ff;
+$cyan-process: #08B4E0ff;
+$spanish-blue: #2476B7ff;
+$eminence: #62297Aff; */
+
+/* SCSS HSL */
+/* $deep-cerise: hsla(324, 93%, 48%, 1);
+$princeton-orange: hsla(26, 77%, 55%, 1);
+$marigold: hsla(39, 90%, 55%, 1);
+$titanium-yellow: hsla(54, 89%, 54%, 1);
+$android-green: hsla(71, 57%, 50%, 1);
+$android-green-2: hsla(85, 49%, 50%, 1);
+$green-ryb: hsla(97, 45%, 51%, 1);
+$cyan-process: hsla(192, 93%, 45%, 1);
+$spanish-blue: hsla(207, 67%, 43%, 1);
+$eminence: hsla(282, 50%, 32%, 1); */
+
+/* SCSS RGB */
+/* $deep-cerise: rgba(236, 8, 144, 1);
+$princeton-orange: rgba(228, 127, 52, 1);
+$marigold: rgba(244, 172, 36, 1);
+$titanium-yellow: rgba(242, 222, 34, 1);
+$android-green: rgba(173, 200, 54, 1);
+$android-green-2: rgba(139, 191, 66, 1);
+$green-ryb: rgba(116, 186, 72, 1);
+$cyan-process: rgba(8, 180, 224, 1);
+$spanish-blue: rgba(36, 118, 183, 1);
+$eminence: rgba(98, 41, 122, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff);
+$gradient-right: linear-gradient(90deg, #EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff);
+$gradient-bottom: linear-gradient(180deg, #EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff);
+$gradient-left: linear-gradient(270deg, #EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff);
+$gradient-top-right: linear-gradient(45deg, #EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff);
+$gradient-bottom-right: linear-gradient(135deg, #EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff);
+$gradient-top-left: linear-gradient(225deg, #EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff);
+$gradient-bottom-left: linear-gradient(315deg, #EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff);
+$gradient-radial: radial-gradient(#EC0890ff, #E47F34ff, #F4AC24ff, #F2DE22ff, #ADC836ff, #8BBF42ff, #74BA48ff, #08B4E0ff, #2476B7ff, #62297Aff); */
+
+
+/* Lisa Frank Color Scheme 3-*/
+/* CSS HEX */
+/* --african-violet: #BE86C1ff;
+--opera-mauve: #C584B8ff;
+--persian-pink: #F38DBCff;
+--uranian-blue: #A5D6F4ff; */
