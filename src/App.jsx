@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./App.css";
+// import "./App.css";
+import "./App.scss";
 
 import Nav from "./components/Nav/Nav";
 // import socialNav from "./components/socialNav/socialNav";

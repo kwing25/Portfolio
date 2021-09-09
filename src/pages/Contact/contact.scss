@@ -1,0 +1,33 @@
+div#contactpage {
+    padding: 20px;
+    overflow: hidden;
+}
+
+h1#page-title {
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+form.contact {
+    justify-content: space-between;
+}
+
+.mb-3 {
+    display: flex;
+}
+
+.fixed-bottom {
+    width: 75vw;
+    height: 95px;
+    background: #ff016e;
+    left: auto;
+}
+
+#bottom-nav.navbar-nav a {
+    color: #080705;
+    font-size: 20px;
+}
+

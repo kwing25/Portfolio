@@ -16,7 +16,18 @@
   justify-content: flex-start;
 }
 
-h1.name, h3.title {
+#logo {
+  background: none;
+  border: none;
+}
+
+#page-link {
+  background: none;
+  border: none;
+}
+
+h1.name,
+h3.title {
   font-family: 'Beth Ellen', cursive;
   color: #ff006f;
   text-align: center;
@@ -30,7 +41,8 @@ h3.title {
   font-size: 2.75vh;
 }
 
-a.nav-link, .nav-link.active {
+a.nav-link,
+.nav-link.active {
   font-family: 'Abril Fatface', cursive;
   font-size: 2.5vh;
   color: rgba(255, 1, 110, .95);

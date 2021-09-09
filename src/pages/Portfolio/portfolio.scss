@@ -1,3 +1,14 @@
-.card {
-    background-color: gray;
+div#portfoliopage {
+    display: flex;
 }
+
+.modal-content {
+    color: black;
+}
+
+#viewmoreBtn,
+#repoBtn,
+#liveBtn {
+    background: black;
+}
+
