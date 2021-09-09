@@ -1,6 +1,7 @@
 <h1 align="center" style="color:#ff006f; font-size:33px;"> My Portfolio </h1>
 
 <p align="center">
+
 <img src="https://raw.githubusercontent.com/kwing25/Portfolio/main/src/assets/logobrandimages/Portfolio%20Website%20Title%20Card.jpg" alt="logo" height="200" width="500" style="margin:30px">
 </p>
 
@@ -17,10 +18,11 @@
 </div>
 
 ---
-
+[![⚠️ALERT](https://img.shields.io/badge/⚠️ALERT-Site_Down!-fc4e4e?labelColor=302626&style=flat&link=https://github.com/kwing25/Portfolio)](https://github.com/kwing25/Portfolio)
  <!-- [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://app.netlify.com/sites/kendra-wing-portfolio-react-version/) -->
+ [![Status](https://img.shields.io/badge/Status-Under_Construction-F2D7D5?style=for-the-badge&link=https://github.com/kwing25/Portfolio)](https://github.com/kwing25/Portfolio)
 [![Status](https://img.shields.io/badge/Status-In_Progress-80DEEA?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/Portfolio)
-[![Status](https://img.shields.io/badge/Status-Actively_Working_On-4FC3F7?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/Portfolio)
+<!-- [![Status](https://img.shields.io/badge/Status-Actively_Working_On-4FC3F7?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/Portfolio) -->
 [![Status](https://img.shields.io/badge/Status-Maintained-81D4FA?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/Portfolio)
 [![Repo Type](https://img.shields.io/badge/Repo_Type-Public-fff200?style=for-the-badge&link=https://github.com/kwing25/New-Portfolio)](https://github.com/kwing25/Portfolio)
 
@@ -79,6 +81,7 @@ Kendra Wing [![GitHub](https://img.shields.io/badge/GitHub-kwing25-green?style=s
 
 > - Created Repo & Initial Commit - Tuesday August 11, 2021
 > - Updated and Published Site - Wednesday August 18, 2021
+> - *Updating Site...* - Wednesday September 8, 2021
 
 
 ---
