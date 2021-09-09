@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -20,7 +20,8 @@ ul {
   list-style: none;
 }
 
-/* Fixed nav and page content alignment with width & float */
+Fixed nav and page content alignment with width & float
+
 .home,
 .about,
 .portfolio,
@@ -38,4 +39,4 @@ ul {
 
 h1#page-title {
   padding: 0;
-}
+} */
