@@ -22,7 +22,7 @@ export default function Contact() {
 
             <h1 id="page-title">Contact Me 👋</h1>
 
-            <Container>
+            <Container className="contact-form">
                 <Form className="contact">
                     <Form.Group as={Row} className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label column sm="4">Email address</Form.Label>
@@ -56,10 +56,7 @@ export default function Contact() {
                             <EmailIcon className="icon" />
                             kendrawingpro@icloud.com
                         </Nav.Link>
-                        <Nav.Link href="(720)335-4482">
-                            <PhoneIcon className="icon" />
-                            720.335.4482
-                        </Nav.Link>
+                        
                     </Nav>
                 </Container>
             </Navbar>
